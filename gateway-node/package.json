@@ -1,0 +1,23 @@
+{
+  "name": "gateway-node",
+  "version": "1.0.0",
+  "description": "MyGaadi API Gateway with JWT Auth, Coarse RBAC, Rate Limiting, and Reverse Proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Gateway ready\""
+  },
+  "keywords": ["mygaadi", "api-gateway", "express"],
+  "author": "MyGaadi Team",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.0.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "http-proxy-middleware": "^3.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0"
+  }
+}

@@ -1,0 +1,18 @@
+package com.mygaadi.dtos;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class JwtDTO {
+	private Long userId;
+	private String userRole;
+	private String email;
+}

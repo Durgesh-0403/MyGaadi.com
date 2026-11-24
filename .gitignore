@@ -1,0 +1,92 @@
+# ==============================================================================
+# MyGaadi.com - Git Ignore Rules
+# ==============================================================================
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+*.bak
+
+# IDE & Editor Metadata
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.factorypath
+.project
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Environment & Secrets (NEVER COMMIT REAL CREDENTIALS)
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+
+# Logging & Debug Output
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node.js & Frontend Build Outputs
+node_modules/
+dist/
+build/
+.npm/
+.cache/
+.eslintcache
+.parcel-cache
+
+# Java & Maven Build Outputs
+target/
+.m2/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Python & FastAPI Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+chroma_db/
+
+# Local Database Storage & User Uploads
+mysql_data/
+backups/
+uploads/
+*.sql.gz
+*.dump
